@@ -1,0 +1,272 @@
+//Sub Section Prompt Structured Output
+//Analyzing BrokenRimBolt1 and BrokenRimBolt2 pictures
+{  
+  "anomalies": [  
+    {  
+      "component": "Rim",  
+      "issue": "Severe Rim Corrosion",  
+      "description": "Extensive rust and pitting observed on the rim structure, affecting integrity and mounting surfaces.",  
+      "severity": "Critical",  
+      "recommended_action": "Immediate replacement of the rim to prevent structural failure."  
+    },  
+    {  
+      "component": "Wheel Hardware",  
+      "issue": "Loose or Missing Wheel Hardware",  
+      "description": "One lug nut is visibly missing, compromising wheel stability and increasing the risk of wheel separation.",  
+      "severity": "Critical",  
+      "recommended_action": "Immediate inspection and replacement of missing lug nut; verify all hardware is secure."  
+    },  
+    {  
+      "component": "Tire",  
+      "issue": "Moderate Tire Wear",  
+      "description": "Tread appears worn but still functional; no critical damage to the sidewalls or surface.",  
+      "severity": "Moderate",  
+      "recommended_action": "Monitor tread wear and schedule replacement as needed."  
+    }  
+  ],  
+  "wheel_position": "Front left",  
+  "operational_impact": "Compromised safety and mobility due to critical rim and hardware issues."  
+}  
+
+
+//SubSection Prompt
+# GUIDED VIDEO INSPECTION INSTRUCTIONS - TIRES AND RIMS SECTION
+## Heavy Equipment Daily Video Analysis
+
+### OVERVIEW
+This guided inspection module provides comprehensive video analysis instructions for tire and rim inspection on wheeled heavy equipment. **Note: Most equipment in this dataset are tracked vehicles where tire and rim inspection is N/A.** For wheeled equipment, this system identifies critical safety issues, moderate maintenance needs, and normal operational conditions related specifically to tires and rims.
+
+---
+
+## INSPECTION CATEGORIES AND DETECTION POINTS
+
+### 🔴 CRITICAL SAFETY ISSUES (RED INDICATORS)
+**Immediate Action Required - Equipment Should Not Operate**
+
+#### **TIRE CONDITION FAILURES**
+- **Flat or Damaged Tires**
+  - Look for: Completely flat tires, visible punctures, sidewall damage, tread separation
+  - Detection Points: Tire sitting on rim, visible holes or cuts, bulging sidewalls, exposed cords
+  - Risk Level: Critical - Compromises equipment stability and operator safety
+  - Common Issues Found: Referenced in inspection questions as "flat or damaged tires"
+
+- **Tire Blowouts**
+  - Look for: Catastrophic tire failure, shredded rubber, exposed rim
+  - Detection Points: Tire debris around wheel, wheel sitting directly on ground
+  - Risk Level: Critical - Immediate safety hazard and equipment instability
+
+- **Severe Tire Wear**
+  - Look for: Completely worn tread, cords showing, uneven extreme wear patterns
+  - Detection Points: Smooth tire surface, visible steel belts, irregular wear patterns
+  - Risk Level: Critical - Loss of traction and potential blowout risk
+
+#### **RIM AND WHEEL DAMAGE**
+- **Cracked or Broken Rims**
+  - Look for: Visible cracks in rim structure, broken rim sections, bent rims
+  - Detection Points: Linear fractures in wheel, separated rim pieces, oval-shaped wheels
+  - Risk Level: Critical - Structural failure can cause tire loss and accidents
+
+- **Loose or Missing Wheel Hardware**
+  - Look for: Missing lug nuts, loose wheel bolts, damaged wheel studs
+  - Detection Points: Empty stud holes, protruding or missing hardware, wobbling wheels
+  - Risk Level: Critical - Wheel separation hazard
+
+- **Severe Rim Corrosion**
+  - Look for: Extensive rust, pitting, or corrosion affecting rim integrity
+  - Detection Points: Flaking metal, holes in rim structure, compromised mounting surfaces
+  - Risk Level: Critical - Structural weakness and air seal failure
+
+---
+
+### 🟡 MODERATE ISSUES (YELLOW INDICATORS)
+**Attention Required - Schedule Maintenance**
+
+#### **TIRE WEAR MONITORING**
+- **Moderate Tire Wear**
+  - Look for: Reduced tread depth, even wear patterns, aging indicators
+  - Detection Points: Tread wear indicators visible, reduced grip patterns
+  - Risk Level: Moderate - Monitor and plan replacement
+  - Data Reference: "Component Wear Monitoring" category
+
+- **Uneven Tire Wear Patterns**
+  - Look for: Inside/outside edge wear, center wear, cupping patterns
+  - Detection Points: Irregular tread surface, faster wear on specific areas
+  - Risk Level: Moderate - Indicates alignment or pressure issues
+
+- **Minor Tire Damage**
+  - Look for: Small cuts, minor punctures (sealed), surface cracking
+  - Detection Points: Shallow cuts not reaching cords, sealed repairs, weather checking
+  - Risk Level: Moderate - Monitor for progression
+
+#### **RIM CONDITION ISSUES**
+- **Minor Rim Damage**
+  - Look for: Small dents, surface scratches, minor corrosion
+  - Detection Points: Cosmetic damage not affecting structure, surface rust
+  - Risk Level: Moderate - Monitor for progression
+
+- **Valve Stem Issues**
+  - Look for: Cracked valve stems, damaged valve caps, slow leaks
+  - Detection Points: Rubber deterioration, missing caps, hissing sounds
+  - Risk Level: Moderate - Can lead to pressure loss
+
+#### **UNDERCARRIAGE COMPONENT WEAR**
+- **Pin and Bushing Wear**
+  - Look for: Seized pins, worn bushings, restricted movement
+  - Detection Points: Difficulty in articulation, visible wear, metal-to-metal contact
+  - Risk Level: Moderate - Progressive wear requiring monitoring
+  - Common Issues Found: "Few minor seized pins"
+
+- **Ice Lug Damage** (For Winter Equipment)
+  - Look for: Broken or missing traction aids on tires
+  - Detection Points: Incomplete or damaged traction elements
+  - Risk Level: Moderate - Affects traction in icy conditions
+  - Common Issues Found: "Multiple broken ice lugs"
+
+---
+
+### ✅ NORMAL CONDITIONS (GREEN INDICATORS)
+**Acceptable Operating Condition**
+
+#### **PROPER TIRE CONDITION**
+- **Adequate Tread Depth**
+  - Look for: Even tread wear, sufficient depth for application
+  - Detection Points: Tread wear indicators not visible, consistent pattern
+
+- **Proper Tire Pressure**
+  - Look for: Correct tire shape, appropriate ground contact patch
+  - Detection Points: Normal tire profile, even ground contact
+
+- **Clean Tire Surface**
+  - Look for: No debris embedded, clear tread patterns
+  - Detection Points: Visible tread design, no foreign objects
+
+#### **PROPER RIM CONDITION**
+- **Structural Integrity**
+  - Look for: No visible damage, proper shape, secure mounting
+  - Detection Points: Round profile, intact structure, tight hardware
+
+- **Clean Rim Surface**
+  - Look for: No excessive corrosion, clean mounting surfaces
+  - Detection Points: Clear of debris, proper finish
+
+---
+
+## VIDEO ANALYSIS PROTOCOL
+
+### **SYSTEMATIC INSPECTION SEQUENCE**
+
+1. **Pre-Inspection Setup**
+   - Ensure adequate lighting for clear visibility of tire and rim areas
+   - Position camera for comprehensive view of all wheels
+   - Start with wide-angle view, then focus on individual wheels
+
+2. **Tire Condition Assessment**
+   - Examine each tire systematically (front left, front right, rear left, rear right)
+   - Check tread depth and wear patterns
+   - Look for punctures, cuts, or embedded objects
+   - Assess sidewall condition for bulges or cracks
+
+3. **Rim and Wheel Hardware Inspection**
+   - Examine rim structure for cracks or damage
+   - Check all visible lug nuts and wheel hardware
+   - Look for signs of corrosion or damage
+   - Verify wheel alignment and proper mounting
+
+4. **Undercarriage Component Check** (When Applicable)
+   - Inspect pins and bushings for wear
+   - Check for proper lubrication
+   - Assess ice lugs or traction aids if equipped
+
+5. **Pressure and Performance Indicators**
+   - Observe tire shape for proper inflation
+   - Check ground contact patterns
+   - Note any unusual wear or deformation
+
+### **DETECTION CONFIDENCE LEVELS**
+
+- **High Confidence (90-100%)**: Clear visual evidence of tire/rim damage or wear
+- **Medium Confidence (70-89%)**: Probable tire/rim issues requiring verification
+- **Low Confidence (50-69%)**: Suspicious conditions needing closer inspection
+
+### **DOCUMENTATION REQUIREMENTS**
+
+For each detected anomaly, document:
+- **Wheel Position**: Specific location (front left, front right, rear left, rear right)
+- **Component Type**: Tire, rim, wheel hardware, or related component
+- **Condition Description**: Detailed description of observed condition
+- **Severity Assessment**: Critical/Moderate/Minor classification
+- **Operational Impact**: Effect on equipment safety and mobility
+- **Recommended Action**: Immediate replacement, scheduled maintenance, or monitoring
+
+---
+
+## COMMON FALSE POSITIVES TO AVOID
+
+### **Environmental Factors**
+- Mud or debris that obscures actual tire condition
+- Lighting conditions that create shadows resembling damage
+- Camera angle distortions that exaggerate normal wear
+- Wet conditions that may hide or emphasize surface features
+
+### **Normal Wear Patterns**
+- Expected tread wear within operational limits
+- Minor surface cracking due to weather exposure
+- Normal rim oxidation that doesn't affect structural integrity
+- Standard deflection under load
+
+---
+
+## SPECIAL CONSIDERATIONS
+
+### **Equipment Type Variations**
+- **Note**: Most equipment in this dataset are tracked vehicles where tire inspection is N/A
+- For wheeled equipment: Focus on load-bearing capacity and work environment demands
+- Consider operating environment (construction, mining, agricultural applications)
+- Account for seasonal conditions (ice lugs, winter tires, etc.)
+
+### **Integration with Maintenance Systems**
+
+#### **Priority Classifications**
+- **RED Issues**: Stop operation immediately, replace tire/rim before use
+- **YELLOW Issues**: Complete current operation, schedule maintenance within 24-48 hours
+- **GREEN Conditions**: Continue normal operations, routine maintenance schedule
+
+#### **Trending Analysis**
+- Track tire wear progression over time
+- Monitor effectiveness of tire pressure maintenance
+- Establish baseline conditions for new tires
+- Identify patterns in tire failure modes
+
+This guided inspection system ensures comprehensive coverage of tire and rim safety and operational aspects specifically relevant to wheeled heavy equipment through systematic video analysis protocols.
+
+//Baseline Prompt
+SYSTEM_PROMPT= """You are a specialized heavy equipment inspection expert with advanced mechanical engineering credentials. Your role is to perform detailed visual analysis of inspection footage / images, providing professional assessment of machinery conditions. For each component visible in the frames/images:
+1. Describe the physical condition with technical precision
+2. Identify specific types of damage (wear patterns, fractures, deformation, contamination, etc.)
+3. Evaluate structural integrity and functionality
+4. Classify issues by severity (Critical: immediate shutdown required; Major: scheduled repair needed; Minor: monitor during next maintenance)
+7. Flag safety concerns with priority markers
+
+Base all assessments exclusively on visual evidence from the provided images. Apply industry-standard inspection protocols to your analysis. Maintain objective, factual reporting without assumptions beyond what can be visually confirmed."""
+USER_PROMPT = """Perform a comprehensive visual inspection of this heavy equipment footage. For each component visible:
+
+1. Document exact condition using industry-standard terminology
+2. Identify any abnormalities (wear, damage, misalignment, leakage, etc.)
+3. Classify each issue's severity (Critical/Major/Minor)
+4. Provide precise timestamp ranges [MM:SS-MM:SS] for each observation
+5. Recommend specific maintenance actions based on findings
+
+Focus exclusively on what can be objectively verified through visual inspection. Highlight potential failure points requiring immediate attention. Your assessment will inform maintenance scheduling and safety protocols."""
+
+FRAMES_ONLY_PROMPT = """As a certified heavy equipment inspector, conduct a thorough visual assessment of these machinery frames. For each component:
+
+1. Document exact physical condition with technical precision
+2. Please identity all the frames and generate the summary frame by frame and don't miss any frames.
+2. Classify any detected issues by severity:
+   - CRITICAL (RED): Immediate shutdown required to prevent catastrophic failure
+   - MAJOR (YELLOW): Repair required before next operational cycle
+   - MINOR (GREEN): Monitor during routine maintenance
+3. Provide exact timestamp ranges [MM:SS-MM:SS] for every observation
+4. Generate a prioritized inspection summary listing all critical findings first
+
+Focus exclusively on visual indicators of mechanical condition. Apply standard inspection protocols for heavy industrial equipment. Your analysis will directly inform maintenance scheduling and safety compliance."""

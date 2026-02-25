@@ -1,0 +1,331 @@
+//PASS Sub Section Prompt Structured Output
+//Analyzing a GoodStep picture 
+{  
+  "anomalies": [  
+    {  
+      "component_location": "Upper Step",  
+      "component_type": "Step",  
+      "condition_description": "The upper step is visibly bent outward, with structural damage compromising safe access.",  
+      "safety_impact_assessment": "Critical - Personnel access safety and fall hazard.",  
+      "visibility_impact": "No direct visibility impact.",  
+      "operational_impact": "Compromised access for personnel, increased injury risk.",  
+      "recommended_action": "Immediate replacement or repair of the damaged step."  
+    },  
+    {  
+      "component_location": "Lower Step",  
+      "component_type": "Step",  
+      "condition_description": "The lower step shows signs of wear and surface degradation, reducing grip capability.",  
+      "safety_impact_assessment": "Moderate - Increased risk of slipping during access.",  
+      "visibility_impact": "No direct visibility impact.",  
+      "operational_impact": "Reduced access safety for personnel.",  
+      "recommended_action": "Schedule maintenance to restore surface grip and inspect structural integrity."  
+    }  
+  ]  
+}  
+
+
+//SubSection Prompt
+# GUIDED VIDEO INSPECTION INSTRUCTIONS - STEPS AND HANDRAILS
+## Heavy Equipment Daily Video Analysis
+
+### OVERVIEW
+This guided inspection module provides comprehensive video analysis instructions for steps, handrails, and access systems on heavy construction equipment (primarily excavators). This system identifies critical safety issues, moderate maintenance needs, and normal operational conditions related specifically to cabin access steps, handrails, mirrors, glass systems, and safety access components. Based on field data analysis from 230 records, this component area shows frequent critical safety issues including damaged glass, broken steps, and compromised access systems requiring immediate attention.
+
+---
+
+## INSPECTION CATEGORIES AND DETECTION POINTS
+
+### 🔴 CRITICAL SAFETY ISSUES (RED INDICATORS)
+**Immediate Action Required - Equipment Should Not Operate**
+
+#### **GLASS AND WINDSHIELD SYSTEM FAILURES**
+- **Cracked or Broken Glass**
+  - Look for: Cracked windshields, broken glass panels, compromised visibility
+  - Detection Points: Visible cracks in glass, shattered panels, vision obstruction
+  - Risk Level: Critical - Operator visibility compromise and safety hazard
+  - Common Issues Found: "Front glass is cracked", windshield damage requiring immediate replacement
+
+- **Windshield Operation Failures**
+  - Look for: Windshield mechanisms not functioning, stuck windshields, operation failure
+  - Detection Points: Windshield unable to move, mechanism failure, control malfunction
+  - Risk Level: Critical - Operator safety and ventilation compromise
+  - Common Issues Found: "Windshield will not come down", windshield system requiring immediate repair
+
+- **Cab Structural Glass Damage**
+  - Look for: Cab glass damage, window failures, structural glass compromise
+  - Detection Points: Damaged cab windows, broken glass panels, structural compromise
+  - Risk Level: Critical - Operator protection and safety system failure
+  - Common Issues Found: Multiple references to glass and windshield damage
+
+#### **STEPS AND ACCESS SYSTEM FAILURES**
+- **Track Frame and Side Step Damage**
+  - Look for: Damaged track frame steps, broken side steps, compromised access
+  - Detection Points: Visible step damage, loose mounting, structural failure
+  - Risk Level: Critical - Personnel access safety and injury risk
+  - Common Issues Found: "LH Track Frame, Side Steps" requiring action, extensive step system damage
+
+- **Cabin Access Step Failures**
+  - Look for: Broken cabin access steps, damaged step systems, access compromise
+  - Detection Points: Damaged steps, loose mounting hardware, structural failure
+  - Risk Level: Critical - Operator access safety and fall hazard
+  - Common Issues Found: "Cabin Access Steps, Handrails" requiring immediate action
+
+- **Access Step Structural Damage**
+  - Look for: Step structural damage, mounting failure, access system compromise
+  - Detection Points: Bent steps, broken mounting, separated step systems
+  - Risk Level: Critical - Personnel safety access failure
+  - Common Issues Found: Multiple references to step system requiring immediate action
+
+#### **HANDRAIL AND SAFETY RAIL FAILURES**
+- **Handrail System Damage**
+  - Look for: Broken handrails, damaged safety rails, compromised grip systems
+  - Detection Points: Visible handrail damage, loose mounting, structural failure
+  - Risk Level: Critical - Personnel safety support system failure
+  - Common Issues Found: References to handrail systems requiring immediate action
+
+- **Safety Rail Mounting Failures**
+  - Look for: Loose safety rail mounting, damaged brackets, rail separation
+  - Detection Points: Rail movement, loose connections, mounting failure
+  - Risk Level: Critical - Safety support system compromise
+  - Common Issues Found: Handrail and safety rail mounting requiring immediate attention
+
+- **Access Safety System Compromise**
+  - Look for: Complete access safety system failure, multiple component damage
+  - Detection Points: Combined step, rail, and access system damage
+  - Risk Level: Critical - Complete access safety system failure
+  - Common Issues Found: "RH Access Steps, Handrails & Mirror" requiring action
+
+#### **MIRROR AND VISIBILITY SYSTEM FAILURES**
+- **Broken Mirror Systems**
+  - Look for: Broken mirrors, damaged mirror mounting, visibility compromise
+  - Detection Points: Cracked mirrors, missing mirrors, loose mounting
+  - Risk Level: Critical - Operator visibility and safety awareness compromise
+  - Common Issues Found: "Broken mirror", mirror systems requiring immediate replacement
+
+- **Mirror Mounting System Damage**
+  - Look for: Damaged mirror mounts, loose mirror systems, mounting failure
+  - Detection Points: Mirror movement, loose mounting, positioning problems
+  - Risk Level: Critical - Loss of critical visibility systems
+  - Common Issues Found: Mirror and mounting system damage in access areas
+
+#### **ENGINE ACCESS AND COVER SYSTEM FAILURES**
+- **Engine Access Cover Damage**
+  - Look for: Damaged engine access covers, broken hinges, compromised latches
+  - Detection Points: Cover damage, hinge failure, latch malfunction
+  - Risk Level: Critical - Engine compartment security and safety access
+  - Common Issues Found: "Engine Access Cover, Hinges, Latches" requiring action
+
+- **Access Cover Safety System Failures**
+  - Look for: Cover safety system failure, latch malfunction, security compromise
+  - Detection Points: Cover unable to secure, safety latch failure, access compromise
+  - Risk Level: Critical - Engine compartment safety and maintenance access
+  - Common Issues Found: Access cover systems requiring immediate repair
+
+#### **CAB STRUCTURAL AND NOISE ISSUES**
+- **Cab Structural Damage**
+  - Look for: Cab structural issues, roof damage, integrity compromise
+  - Detection Points: Structural noise, cab rattling, integrity concerns
+  - Risk Level: Critical - Operator protection and cab integrity
+  - Common Issues Found: "Rattling sound in cab on roof", "Rattle in roof inside of cab"
+
+---
+
+### 🟡 MODERATE ISSUES (YELLOW INDICATORS)
+**Attention Required - Schedule Maintenance**
+
+#### **STEP SYSTEM MAINTENANCE**
+- **Step Wear and Surface Condition**
+  - Look for: Step surface wear, minor damage, maintenance needs
+  - Detection Points: Surface wear patterns, minor damage, grip deterioration
+  - Risk Level: Moderate - Monitor for progression, schedule maintenance
+  - Common Issues Found: Progressive step wear requiring maintenance attention
+
+- **Step Mounting System Monitoring**
+  - Look for: Minor step mounting issues, early wear signs, maintenance needs
+  - Detection Points: Slight movement, early wear, maintenance indicators
+  - Risk Level: Moderate - Schedule maintenance before critical failure
+  - Common Issues Found: Step mounting requiring scheduled maintenance
+
+#### **HANDRAIL MAINTENANCE NEEDS**
+- **Handrail Surface Condition**
+  - Look for: Handrail surface wear, grip deterioration, maintenance needs
+  - Detection Points: Surface wear, grip condition, minor damage
+  - Risk Level: Moderate - Schedule surface treatment and maintenance
+  - Common Issues Found: Handrail maintenance and surface condition needs
+
+- **Handrail Hardware Monitoring**
+  - Look for: Handrail hardware wear, mounting degradation, maintenance needs
+  - Detection Points: Hardware loosening, mounting wear, connection issues
+  - Risk Level: Moderate - Monitor and schedule hardware maintenance
+  - Common Issues Found: Handrail hardware requiring maintenance attention
+
+#### **GLASS AND MIRROR MAINTENANCE**
+- **Minor Glass Issues**
+  - Look for: Minor glass chips, small cracks, early damage signs
+  - Detection Points: Small glass defects, minor visibility issues, early damage
+  - Risk Level: Moderate - Monitor for progression, plan replacement
+  - Common Issues Found: Minor glass maintenance requirements
+
+- **Mirror Adjustment and Maintenance**
+  - Look for: Mirror adjustment needs, minor mounting issues, maintenance requirements
+  - Detection Points: Mirror positioning problems, minor mounting wear, adjustment needs
+  - Risk Level: Moderate - Schedule mirror maintenance and adjustment
+  - Common Issues Found: Mirror system maintenance and adjustment needs
+
+---
+
+### ✅ NORMAL CONDITIONS (GREEN INDICATORS)
+**Acceptable Operating Condition**
+
+#### **PROPER STEP SYSTEM CONDITION**
+- **Secure Step Installation**
+  - Look for: Tight step mounting, proper alignment, secure connections
+  - Detection Points: No visible movement, secure mounting, proper step spacing
+
+- **Adequate Step Surface Condition**
+  - Look for: Good step surface grip, proper wear patterns, functional condition
+  - Detection Points: Adequate traction, normal wear, proper surface condition
+
+#### **PROPER HANDRAIL CONDITION**
+- **Secure Handrail Mounting**
+  - Look for: Tight handrail connections, proper support, secure mounting
+  - Detection Points: No visible movement, secure connections, proper alignment
+
+- **Functional Grip Systems**
+  - Look for: Adequate handrail grip, proper surface condition, functional systems
+  - Detection Points: Good grip surface, proper texture, functional condition
+
+#### **PROPER GLASS AND MIRROR SYSTEMS**
+- **Clear Glass Condition**
+  - Look for: Undamaged glass, clear visibility, proper condition
+  - Detection Points: Clear vision, intact glass, proper transparency
+
+- **Functional Mirror Systems**
+  - Look for: Properly positioned mirrors, clear reflection, secure mounting
+  - Detection Points: Clear visibility, proper positioning, secure installation
+
+#### **PROPER ACCESS SYSTEMS**
+- **Effective Access Safety**
+  - Look for: Complete access systems, proper safety features, functional design
+  - Detection Points: Safe access capability, proper safety features, functional systems
+
+---
+
+## VIDEO ANALYSIS PROTOCOL
+
+### **SYSTEMATIC INSPECTION SEQUENCE**
+
+1. **Pre-Inspection Setup**
+   - Ensure equipment is positioned for clear access system visibility
+   - Position camera for comprehensive view of all steps and handrails
+   - Check adequate lighting for detailed safety component inspection
+
+2. **Glass and Windshield Inspection**
+   - Examine all visible glass for cracks, chips, or damage
+   - Check windshield operation and mechanism function
+   - Assess glass clarity and visibility condition
+   - Document any glass damage or operational issues
+
+3. **Step System Assessment**
+   - Inspect all visible steps for damage and mounting condition
+   - Check step surface condition and grip capability
+   - Examine step mounting hardware and structural integrity
+   - Document step damage or safety concerns
+
+4. **Handrail and Safety Rail Evaluation**
+   - Examine all handrails for damage and mounting condition
+   - Check handrail grip surface and structural integrity
+   - Assess safety rail mounting and connection systems
+   - Document handrail damage or safety issues
+
+5. **Mirror and Visibility System Inspection**
+   - Check all visible mirrors for damage and positioning
+   - Examine mirror mounting and adjustment systems
+   - Assess mirror clarity and reflection quality
+   - Document mirror damage or visibility issues
+
+6. **Access Cover and Safety System Assessment**
+   - Inspect engine access covers and hinge systems
+   - Check access cover latches and security systems
+   - Examine cover condition and operational function
+   - Document access system damage or safety concerns
+
+### **DETECTION CONFIDENCE LEVELS**
+
+- **High Confidence (90-100%)**: Clear visual evidence of damage, failure, or safety compromise
+- **Medium Confidence (70-89%)**: Probable safety issues requiring verification
+- **Low Confidence (50-69%)**: Suspicious conditions needing closer inspection
+
+### **DOCUMENTATION REQUIREMENTS**
+
+For each detected anomaly, document:
+- **Component Location**: Specific step, handrail, glass, mirror, or access system location
+- **Component Type**: Step, handrail, glass, mirror, cover, hinge, latch, safety system
+- **Condition Description**: Detailed description of observed condition or failure
+- **Safety Impact Assessment**: Personnel safety risks and access capability
+- **Visibility Impact**: Effect on operator visibility and safety awareness
+- **Operational Impact**: Effect on equipment access and maintenance capability
+- **Recommended Action**: Immediate repair, component replacement, or scheduled maintenance
+
+---
+
+## COMMON FALSE POSITIVES TO AVOID
+
+### **Environmental Factors**
+- Dirt or debris that obscures actual component condition
+- Lighting conditions creating reflections or shadows
+- Environmental wear vs. structural damage
+- Previous maintenance markings vs. damage indicators
+
+### **Normal System Characteristics**
+- Expected wear patterns within acceptable limits
+- Normal operational clearances vs. damage
+- Maintenance-related discoloration vs. structural issues
+- Expected movement vs. structural compromise
+
+---
+
+## SPECIAL CONSIDERATIONS
+
+### **Personnel Safety Priority**
+- **Access Safety**: Step and handrail integrity critical for personnel safety
+- **Fall Prevention**: Damaged access systems create serious injury risks
+- **Visibility Safety**: Glass and mirror damage compromises operator awareness
+- **Emergency Access**: Access systems essential for emergency evacuation
+
+### **Regulatory Compliance**
+- **OSHA Requirements**: Access systems must meet safety standards
+- **Equipment Standards**: Steps and handrails must meet manufacturer specifications
+- **Safety Inspections**: Document all safety system conditions for compliance
+- **Training Requirements**: Ensure personnel understand safe access procedures
+
+### **Integration with Maintenance Systems**
+
+#### **Priority Classifications**
+- **RED Issues**: Immediate equipment shutdown, safety system isolation, emergency repair
+- **YELLOW Issues**: Complete current operation safely, schedule safety system maintenance within 24 hours
+- **GREEN Conditions**: Continue normal operations, routine maintenance schedule
+
+#### **Trending Analysis**
+- **Access System Wear**: Monitor step and handrail wear progression
+- **Glass Damage Tracking**: Track glass damage incidents and replacement needs
+- **Safety Incident Correlation**: Correlate access system condition with safety incidents
+- **Maintenance Interval Optimization**: Establish optimal safety system maintenance schedules
+
+#### **Maintenance Integration**
+- **Predictive Maintenance**: Schedule access system maintenance before failure
+- **Safety System Monitoring**: Track safety system condition and performance
+- **Inventory Planning**: Maintain glass, step, and handrail replacement inventory
+- **Training Integration**: Include access system inspection in operator training
+
+### **Emergency Response Protocol**
+- **Immediate Assessment**: Evaluate personnel safety risks from damaged access systems
+- **Alternative Access**: Establish safe alternative access methods when systems are damaged
+- **Area Isolation**: Secure access areas to prevent personnel injury
+- **Emergency Repair**: Prioritize safety system repairs for continued operation
+
+This guided inspection system ensures comprehensive coverage of all critical steps and handrails through systematic video analysis protocols, addressing the frequent safety system issues commonly found in this critical equipment area that supports personnel safety and equipment access.
+
+//Comments
+Upper step looks good to me however the lower one is bent
+

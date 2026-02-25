@@ -1,0 +1,301 @@
+/*
+  //FAILED Sub Section Prompt Structured Output
+  Analyzing DamagedAccessLadder picture
+  This prompt does NOT capture anything about the  
+*/
+{  
+  "anomalies": [  
+    {  
+      "component_location": "Cab Glass",  
+      "component_type": "Glass",  
+      "condition_description": "The cab glass panel near the door shows visible dirt or smudges, potentially affecting visibility.",  
+      "safety_impact_assessment": "Moderate - Reduced operator visibility.",  
+      "visibility_impact": "Obstructed visibility due to smudged glass.",  
+      "operational_impact": "Reduced safety awareness for the operator.",  
+      "recommended_action": "Clean the glass panel to restore clear visibility."  
+    },  
+    {  
+      "component_location": "Hydraulic Cylinder Mounting",  
+      "component_type": "Mounting System",  
+      "condition_description": "The hydraulic cylinder mounting appears dirty and may require inspection for wear or maintenance.",  
+      "safety_impact_assessment": "Moderate - Potential risk to equipment operation if wear is present.",  
+      "visibility_impact": "No direct visibility impact.",  
+      "operational_impact": "Possible reduction in hydraulic system reliability.",  
+      "recommended_action": "Inspect the mounting system for wear and clean the area."  
+    }  
+  ]  
+}  
+
+
+//SubSection Prompt
+# GUIDED VIDEO INSPECTION INSTRUCTIONS - ENGINE COOLANT LEVEL
+## Heavy Equipment Daily Video Analysis
+
+### OVERVIEW
+This guided inspection module provides comprehensive video analysis instructions for engine coolant level and cooling system components on heavy construction equipment (primarily excavators). This system identifies critical cooling system failures, moderate maintenance needs, and normal operational conditions related specifically to coolant levels, radiator systems, cooling system leaks, and temperature management. Based on field data analysis from 232 records, this component area shows frequent critical coolant management issues including low coolant levels, system leaks, and cooling system failures requiring immediate attention.
+
+---
+
+## INSPECTION CATEGORIES AND DETECTION POINTS
+
+### 🔴 CRITICAL SAFETY ISSUES (RED INDICATORS)
+**Immediate Action Required - Equipment Should Not Operate**
+
+#### **COOLANT LEVEL CRITICAL ISSUES**
+- **Critically Low Coolant Levels**
+  - Look for: Coolant below minimum marks, empty coolant reservoirs, visible low coolant warnings
+  - Detection Points: Coolant level indicators below safe range, empty expansion tanks
+  - Risk Level: Critical - Engine overheating and complete engine failure
+  - Common Issues Found: "Low coolant", "Needs coolant", "Low on coolant, filled back up"
+
+- **Continuous Coolant Loss**
+  - Look for: Daily coolant addition requirements, progressive coolant loss, system depletion
+  - Detection Points: Frequent coolant addition needs, progressive level decline
+  - Risk Level: Critical - Cooling system failure and engine damage
+  - Common Issues Found: "Keep adding coolant everyday but can not find where the leak is", "Still leaking coolant"
+
+#### **COOLANT SYSTEM LEAK FAILURES**
+- **Major Coolant System Leaks**
+  - Look for: Visible coolant leaks, puddles under equipment, fluid streaming
+  - Detection Points: Coolant accumulation, visible leak points, system fluid loss
+  - Risk Level: Critical - Cooling system failure and engine overheating
+  - Common Issues Found: "Coolant leaking from somewhere but can not find out where", multiple coolant leak references
+
+- **Radiator System Damage**
+  - Look for: Damaged radiator guards, radiator core damage, protection system failure
+  - Detection Points: Visible radiator damage, damaged protective guards, core exposure
+  - Risk Level: Critical - Radiator damage and cooling system compromise
+  - Common Issues Found: "Replace damaged radiator lower guard", radiator protection system damage
+
+- **Cooling System Hose Failures**
+  - Look for: Damaged cooling system hoses, loose hose clamps, connection failures
+  - Detection Points: Visible hose damage, loose connections, clamp failures
+  - Risk Level: Critical - Cooling system pressure loss and overheating
+  - Common Issues Found: "leaky hose clamps", "def injector, coolant, lines" system failures
+
+#### **WATER PUMP AND COOLING COMPONENT FAILURES**
+- **Water Pump Internal Failures**
+  - Look for: Water pump leakage, internal seal failures, coolant contamination
+  - Detection Points: Water pump inspection hole leakage, coolant in oil systems
+  - Risk Level: Critical - Engine cooling failure and internal engine damage
+  - Common Issues Found: "Water pump leak from inspection hole", "seal between water and oil inside the water pump was wear and damage"
+
+- **Coolant Contamination Issues**
+  - Look for: Coolant contamination in engine oil, cross-contamination, system failure
+  - Detection Points: Oil contamination indicators, coolant system compromise
+  - Risk Level: Critical - Engine lubrication system contamination and failure
+  - Common Issues Found: "ENGINE OIL CONTAINS WATER", coolant entering engine oil lubrication system
+
+#### **HEATING AND COOLING SYSTEM CONTROL FAILURES**
+- **Climate Control System Failure**
+  - Look for: Non-functioning heating/cooling systems, control system failure
+  - Detection Points: No climate control operation, control system malfunction
+  - Risk Level: Critical - Operator comfort and safety, system failure
+  - Common Issues Found: "Not working, no controls", complete heating and cooling system failure
+
+- **Cooling System Component Damage**
+  - Look for: Damaged cooling system components, broken radiator doors, system compromise
+  - Detection Points: Visible component damage, broken doors, system exposure
+  - Risk Level: Critical - Cooling system protection and function compromise
+  - Common Issues Found: "Lh radiator door. Rh door in the rear bent", cooling system access damage
+
+#### **HYDRAULIC SYSTEM COOLANT INTERACTION**
+- **Hydraulic System Leak Impact on Cooling**
+  - Look for: Hydraulic leaks affecting cooling systems, cross-system contamination
+  - Detection Points: Hydraulic fluid affecting cooling components, system interaction
+  - Risk Level: Critical - Multiple system failure and contamination
+  - Common Issues Found: "There is hydraulic leak coming from somewhere", hydraulic affecting cooling systems
+
+---
+
+### 🟡 MODERATE ISSUES (YELLOW INDICATORS)
+**Attention Required - Schedule Maintenance**
+
+#### **COOLANT SYSTEM MONITORING**
+- **Coolant Level Maintenance Monitoring**
+  - Look for: Coolant levels approaching service intervals, routine maintenance needs
+  - Detection Points: Coolant condition indicators, maintenance scheduling requirements
+  - Risk Level: Moderate - Schedule coolant service before critical levels
+  - Common Issues Found: Progressive coolant level monitoring and maintenance scheduling
+
+- **Coolant Quality Assessment**
+  - Look for: Coolant quality degradation, contamination indicators, service planning
+  - Detection Points: Coolant color changes, contamination signs, service interval approach
+  - Risk Level: Moderate - Plan coolant service and quality maintenance
+  - Common Issues Found: Coolant condition requiring monitoring and service planning
+
+#### **RADIATOR AND COOLING COMPONENT MAINTENANCE**
+- **Radiator Cleaning and Maintenance**
+  - Look for: Radiator core cleaning needs, debris accumulation, airflow restriction
+  - Detection Points: Debris buildup, reduced airflow, cleaning requirements
+  - Risk Level: Moderate - Schedule radiator cleaning and maintenance
+  - Common Issues Found: Radiator maintenance and cleaning requirements
+
+- **Cooling System Hose Monitoring**
+  - Look for: Hose condition monitoring, clamp maintenance, connection inspection
+  - Detection Points: Hose wear indicators, clamp condition, connection integrity
+  - Risk Level: Moderate - Monitor hose condition and plan replacement
+  - Common Issues Found: Cooling system hose and connection maintenance
+
+#### **Temperature Management Monitoring**
+- **Engine Temperature Monitoring**
+  - Look for: Engine temperature trends, cooling efficiency, system performance
+  - Detection Points: Temperature indicators, cooling performance monitoring
+  - Risk Level: Moderate - Monitor cooling system performance and efficiency
+  - Common Issues Found: Engine temperature and cooling performance monitoring
+
+---
+
+### ✅ NORMAL CONDITIONS (GREEN INDICATORS)
+**Acceptable Operating Condition**
+
+#### **PROPER COOLANT SYSTEM CONDITION**
+- **Adequate Coolant Level**
+  - Look for: Coolant level within proper range, adequate system fluid
+  - Detection Points: Coolant level indicators within specifications, proper levels
+
+- **Clean Coolant Condition**
+  - Look for: Clean coolant appearance, proper coolant quality, adequate protection
+  - Detection Points: Clear coolant color, proper concentration, clean condition
+
+#### **PROPER COOLING SYSTEM OPERATION**
+- **Leak-Free Cooling System**
+  - Look for: No visible leaks, clean cooling components, proper system operation
+  - Detection Points: Dry components, clean operation, proper function
+
+- **Functional Radiator System**
+  - Look for: Proper radiator function, adequate airflow, effective cooling
+  - Detection Points: Clean radiator, proper airflow, effective heat transfer
+
+#### **PROPER TEMPERATURE MANAGEMENT**
+- **Effective Engine Cooling**
+  - Look for: Proper engine operating temperatures, effective cooling system
+  - Detection Points: Normal temperature readings, effective cooling operation
+
+- **Functional Climate Control**
+  - Look for: Working heating and cooling systems, proper operator comfort
+  - Detection Points: Climate control operation, proper temperature management
+
+---
+
+## VIDEO ANALYSIS PROTOCOL
+
+### **SYSTEMATIC INSPECTION SEQUENCE**
+
+1. **Pre-Inspection Setup**
+   - Ensure equipment is positioned for clear cooling system visibility
+   - Position camera for comprehensive view of radiator and coolant systems
+   - Check adequate lighting for detailed coolant level inspection
+
+2. **Coolant Level Assessment**
+   - Check coolant reservoir and radiator levels for proper fluid level
+   - Examine coolant condition and quality through visual inspection
+   - Assess coolant level against manufacturer specifications
+   - Document coolant level status and condition
+
+3. **Cooling System Leak Detection**
+   - Examine cooling system components for leaks or damage
+   - Check radiator, hoses, and connections for integrity
+   - Assess water pump and cooling component condition
+   - Document leak sources and system condition
+
+4. **Radiator and Component Inspection**
+   - Check radiator core condition and cleanliness
+   - Examine radiator guards and protection systems
+   - Assess radiator door and access system condition
+   - Document radiator system status and needs
+
+5. **Cooling System Component Evaluation**
+   - Check cooling system hoses and clamp condition
+   - Examine water pump and component mounting
+   - Assess heating and cooling control systems
+   - Document component condition and function
+
+6. **Temperature Management Assessment**
+   - Monitor engine temperature indicators during operation
+   - Check cooling system performance and efficiency
+   - Assess climate control system operation
+   - Document temperature management effectiveness
+
+### **DETECTION CONFIDENCE LEVELS**
+
+- **High Confidence (90-100%)**: Clear visual evidence of low levels, leaks, or system failure
+- **Medium Confidence (70-89%)**: Probable cooling system issues requiring verification
+- **Low Confidence (50-69%)**: Suspicious conditions needing closer inspection or testing
+
+### **DOCUMENTATION REQUIREMENTS**
+
+For each detected anomaly, document:
+- **Component Location**: Specific cooling system component, radiator, reservoir location
+- **Coolant Level Assessment**: Current level vs. specification, quantity needed
+- **Condition Description**: Coolant quality, contamination, system condition
+- **Leak Assessment**: Location, severity, and type of any coolant leaks
+- **Temperature Impact**: Effect on engine operating temperatures
+- **Operational Impact**: Effect on equipment operation and performance
+- **Safety Implications**: Immediate safety risks and engine damage potential
+- **Recommended Action**: Immediate coolant addition, leak repair, or system service
+
+---
+
+## COMMON FALSE POSITIVES TO AVOID
+
+### **Environmental Factors**
+- Water or condensation vs. coolant leakage
+- Environmental debris vs. coolant contamination
+- Lighting conditions affecting level reading accuracy
+- Previous maintenance residue vs. active leakage
+
+### **Normal System Characteristics**
+- Normal coolant expansion and contraction with temperature
+- Expected coolant color changes during service intervals
+- Normal operational temperature variations vs. overheating
+- Maintenance-related coolant marks vs. leak indicators
+
+---
+
+## SPECIAL CONSIDERATIONS
+
+### **Cooling System Priority**
+- **Engine Protection**: Coolant level critical for engine protection and longevity
+- **Overheating Prevention**: Proper cooling essential to prevent catastrophic engine failure
+- **System Pressure**: Cooling systems operate under pressure requiring safety precautions
+- **Environmental Protection**: Coolant leaks require containment and proper disposal
+
+### **Temperature Management**
+- **Operating Temperature**: Monitor engine operating temperatures for system effectiveness
+- **Seasonal Considerations**: Coolant mixture critical for freeze and corrosion protection
+- **Service Intervals**: Coolant service intervals critical for system protection
+- **Quality Control**: Use proper coolant specifications and mixture ratios
+
+### **Integration with Maintenance Systems**
+
+#### **Priority Classifications**
+- **RED Issues**: Immediate equipment shutdown, coolant addition, emergency repair
+- **YELLOW Issues**: Complete current operation safely, schedule cooling system service within 24 hours
+- **GREEN Conditions**: Continue normal operations, routine maintenance schedule
+
+#### **Trending Analysis**
+- **Coolant Consumption Monitoring**: Track coolant consumption rates for leak detection
+- **Temperature Trend Analysis**: Monitor engine operating temperature trends
+- **Leak Progression Tracking**: Monitor leak development and repair effectiveness
+- **Service Interval Optimization**: Adjust coolant service intervals based on operating conditions
+
+#### **Maintenance Integration**
+- **Predictive Maintenance**: Schedule cooling system services before critical failures
+- **Condition Monitoring**: Track coolant quality and contamination levels
+- **Inventory Planning**: Maintain adequate coolant and cooling system component inventory
+- **Training Programs**: Ensure proper coolant level checking and system inspection procedures
+
+### **Emergency Response Protocol**
+- **Immediate Assessment**: Evaluate equipment safety for continued operation with cooling issues
+- **Coolant Addition**: Add coolant immediately for critical low levels
+- **Leak Containment**: Implement spill containment for significant coolant leaks
+- **System Shutdown**: Stop equipment operation for critical cooling system failure
+
+This guided inspection system ensures comprehensive coverage of all critical engine coolant level and cooling system components through systematic video analysis protocols, addressing the frequent cooling system issues commonly found in this critical equipment area that supports engine protection and operational reliability.
+
+// Comments
+// Does not capture anything about  the damaged access ladder 
+
+
+
