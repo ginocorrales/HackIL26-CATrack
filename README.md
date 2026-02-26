@@ -64,9 +64,9 @@ Using Cat® Inspect for Equipment Inspections
 Sample Videos for Daily Walkaround Inspection   
 
 Cat® Wheel Loader | Daily Walkaround Inspection  
-<LINK>
+<https://www.youtube.com/watch?v=2cE-pbuiukI>
 Cat® Excavator Daily Walkaround Inspection  
-<LINK>
+<https://www.youtube.com/watch?v=0bAw7J7gHD0>
  
 
  
